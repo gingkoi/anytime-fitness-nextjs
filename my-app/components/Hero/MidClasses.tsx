@@ -12,7 +12,7 @@ const MidClasses = () => {
           "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
         alt={"person Standing on a Cube"}
-        link="benefits"
+        link="/benefits"
       />
       <MidClass
         facility={"Premium Fitness Classes"}
@@ -24,7 +24,7 @@ const MidClasses = () => {
           "https://images.pexels.com/photos/3912366/pexels-photo-3912366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
         alt={"person Standing on a Cube"}
-        link=""
+        link="/classes"
       />
       <MidClass
         facility={"High-End Clubs, Equipment & Amenities"}
@@ -34,7 +34,7 @@ const MidClasses = () => {
           "https://www.lifefitness.com/resource/blob/1702588/3836aac8bf0851770b849d9d82a0b7e8/hr-1147-fvdb-20200306-2048px-data.png"
         }
         alt={"person Standing on a Cube"}
-        link="locations"
+        link="/locations"
       />
       <MidClass
         facility={"Results-Driven Personal Training"}
@@ -46,7 +46,7 @@ const MidClasses = () => {
           "https://images.pexels.com/photos/4164658/pexels-photo-4164658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
         alt={"person Standing on a Cube"}
-        link="trainers"
+        link="/trainers"
       />
     </div>
   );
