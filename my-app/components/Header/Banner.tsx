@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import ShopModal from "../Modal/ShopModal";
 
 const Banner = () => {
   return (
@@ -8,9 +10,7 @@ const Banner = () => {
           Special Offer 🔥 10 Day All Club Access Membership with $0 Enrollment
           Fees
         </p>
-        <div className="uppercase bg-white text-primary font-bold py-2 px-5 rounded-md hover:scale-105 transition ease-in cursor-pointer">
-          Shop now
-        </div>
+        <ShopModal />
       </div>
     </div>
   );

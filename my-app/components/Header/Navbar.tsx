@@ -5,6 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
 import logo from "../../public/LOGO.png";
 import Link from "next/link";
+import GuestMdoal from "../Modal/GuestMdoal";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -33,12 +34,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="hidden space-x-3 lg:flex">
-          <Link
-            href="/"
-            className="text-text bg-[#f3f4f6] py-3 px-5 font-semibold rounded-lg hover:bg-primary hover:text-white transition"
-          >
-            Guest Pass
-          </Link>
+          <GuestMdoal />
           <Link
             href="/pricing"
             className="text-white bg-primary py-3 px-5 font-semibold rounded-lg hover:scale-105 ease-in transition"
@@ -92,9 +88,7 @@ const Navbar = () => {
         >
           Join Online
         </Link>
-        <Link href="/" className="text-white text-xl p-3 font-semibold">
-          Guess Pass
-        </Link>
+        <GuestMdoal />
       </div>
     </div>
   );
