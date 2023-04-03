@@ -1,9 +1,18 @@
-import Image from "next/image";
+import Hero from "@/components/Hero/Hero";
+import MidClasses from "@/components/Hero/MidClasses";
+import MidFirst from "@/components/Hero/MidFirst";
+import JoinCommunity from "@/components/Review/JoinCommunity";
+import Review from "@/components/Review/Review";
+import React from "react";
 
 export default function Home() {
   return (
-    <main className="text-red-500 font-bold flex justify-center items-center h-screen font-poppin">
-      Hello
+    <main className="font-poppin">
+      <Hero />
+      <MidFirst />
+      <MidClasses />
+      <Review />
+      <JoinCommunity />
     </main>
   );
 }
