@@ -14,7 +14,9 @@ const Footer = () => {
     <div className="bg-black text-white lg:pt-24 lg:pb-10 p-10">
       <div className="max-w-[1400px] mx-auto">
         <div className="flex flex-col lg:flex-row lg:justify-between items-center">
-          <Image src={logo} width={170} height={100} alt="anytime-fitness" />
+          <Link href="/">
+            <Image src={logo} width={170} height={100} alt="anytime-fitness" />
+          </Link>
           <p className="text-4xl font-medium text-center lg:text-left mt-5 lg:mt-0">
             A Lifestyle Gym.
           </p>
