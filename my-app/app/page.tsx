@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main className="font-poppin">
+    <main className="font-poppin animation_body">
       <Hero />
       <MidFirst />
       <MidClasses />

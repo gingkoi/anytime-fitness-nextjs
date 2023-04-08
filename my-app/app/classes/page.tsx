@@ -17,7 +17,7 @@ const Classes = () => {
     setToggle(index);
   };
   return (
-    <div className="container mx-auto lg:py-16 pb-10 lg:h-[calc(100vh_-_0px)]">
+    <div className="container mx-auto lg:py-16 pb-10 lg:h-[calc(100vh_-_0px)] animation_body">
       <div className=" grid lg:grid-cols-7 bg-black text-white">
         <div
           className={` group py-5 text-center cursor-pointer ${

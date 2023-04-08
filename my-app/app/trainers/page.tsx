@@ -19,7 +19,7 @@ const Trainers = () => {
     setToggle3(!toggle3);
   };
   return (
-    <div className="container mx-auto lg:py-16 py-10 px-5">
+    <div className="container mx-auto lg:py-16 py-10 px-5 animation_body">
       <div className="grid lg:grid-cols-2 lg:gap-10">
         <div className="bg-black text-white flex flex-col justify-center items-center lg:p-20 p-10 text-center space-y-5">
           <h1 className="font-bold text-2xl lg:text-3xl">

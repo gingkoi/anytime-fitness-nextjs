@@ -72,7 +72,7 @@ const Checkout = () => {
     });
   Object.keys(formErrors).length === 0 && isSubmit ? notify() : null;
   return (
-    <div className="max-w-[1200px] h-auto mx-auto flex justify-center gap-20 py-16 px-10">
+    <div className="max-w-[1200px] h-auto mx-auto flex justify-center gap-20 py-16 px-10 animation_body">
       <div className="w-[700px] h-auto relative overflow-hidden lg:block hidden">
         <Image
           src="https://images.pexels.com/photos/13106582/pexels-photo-13106582.jpeg"

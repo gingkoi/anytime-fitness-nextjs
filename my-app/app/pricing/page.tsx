@@ -4,7 +4,7 @@ import PricingCard from "@/components/Pricing/PricingCard";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col justify-center items-center max-w-screen h-auto py-16 font-poppin">
+    <div className="flex flex-col justify-center items-center max-w-screen h-auto py-16 font-poppin animation_body">
       <div className="max-w-[300px] space-y-3 my-5">
         <p className="font-black text-5xl text-center">Start Here</p>
         <p className="text-2xl text-center">Choose your plan</p>

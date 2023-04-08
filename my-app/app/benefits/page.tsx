@@ -14,7 +14,7 @@ import Form from "@/components/Benefits/Form";
 
 const Benefits = () => {
   return (
-    <div className="font-poppin animated_bg">
+    <div className="font-poppin animated_bg animation_body">
       <div className="max-w-screen lg:h-[690px] h-[600px] px-10 flex justify-center items-center">
         <div className="max-w-[700px]">
           <h1 className="lg:text-6xl text-4xl font-black">

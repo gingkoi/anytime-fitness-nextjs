@@ -45,6 +45,18 @@
     background-position: 50px 50px;
   }
 }
+
+@keyframes inTransition {
+  from {
+    opacity: 0;
+    transform: rotateX("-10deg");
+  }
+  to {
+    opacity: 1;
+    transform: rotateX("0");
+  }
+}
+
 /* Main styles */
 .animated_bg {
   /* img size is 50x50 */
@@ -62,4 +74,8 @@
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
+}
+
+.animation_body {
+  animation: inTransition 0.45s;
 }
