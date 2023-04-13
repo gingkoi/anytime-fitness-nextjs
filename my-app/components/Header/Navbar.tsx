@@ -12,6 +12,9 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+  const closeNav = () => {
+    setNav(false);
+  };
 
   return (
     <div className="relative h-full">
@@ -63,32 +66,53 @@ const Navbar = () => {
       <div
         className={`${
           nav
-            ? "flex w-screen h-full justify-around flex-col font-poppin transition duration-200 lg:hidden bg-black border-b-8 border-primary"
+            ? "flex w-screen h-screen flex-col justify-center  font-poppin lg:hidden bg-black border-b-8 border-primary fixed top-0 left-0 right-0 bottom-0 z-[60]"
             : "hidden "
         }`}
       >
-        <Link href="benefits" className="text-white font-semibold text-xl p-3">
-          Benefits
-        </Link>
-        <Link href="/classes" className="text-white font-semibold text-xl p-3">
-          Class Schedule
-        </Link>
-        <Link
-          href="/locations"
-          className="text-white font-semibold text-xl p-3"
-        >
-          Locations
-        </Link>
-        <Link href="/trainers" className="text-white font-semibold text-xl p-3">
-          Trainers
-        </Link>
-        <Link
-          href="/pricing"
-          className="text-xl p-3 bg-primary text-white font-semibold"
-        >
-          Join Online
-        </Link>
-        <GuestMdoal />
+        <AiOutlineClose
+          size={40}
+          className="text-white absolute top-[2%] right-[2%]"
+          onClick={handleNav}
+        />
+        <div className="flex flex-col space-y-8 items-center justify-center">
+          <Link
+            href="benefits"
+            className="text-white font-semibold text-3xl"
+            onClick={closeNav}
+          >
+            Benefits
+          </Link>
+          <Link
+            href="/classes"
+            className="text-white font-semibold text-3xl"
+            onClick={closeNav}
+          >
+            Class Schedule
+          </Link>
+          <Link
+            href="/locations"
+            className="text-white font-semibold text-3xl"
+            onClick={closeNav}
+          >
+            Locations
+          </Link>
+          <Link
+            href="/trainers"
+            className="text-white font-semibold text-3xl"
+            onClick={closeNav}
+          >
+            Trainers
+          </Link>
+          <Link
+            href="/pricing"
+            className="text-2xl px-5 py-2 bg-primary text-white font-semibold rounded-2xl"
+            onClick={closeNav}
+          >
+            Join Online
+          </Link>
+          <GuestMdoal />
+        </div>
       </div>
     </div>
   );

@@ -84,7 +84,20 @@ const thursday = [
     trainer: "Dana Louis",
   },
 ];
-const friday: any[] = [];
+const friday: any[] = [
+  {
+    class: "Bodybuilding",
+    timeStart: "12:00pm",
+    timeEnd: "1:00pm",
+    trainer: "Frank Zane",
+  },
+  {
+    class: "Yoga",
+    timeStart: "1:00pm",
+    timeEnd: "2:00pm",
+    trainer: "Dana Louis",
+  },
+];
 const saturday = [
   {
     class: "Yoga",
@@ -93,6 +106,19 @@ const saturday = [
     trainer: "Dana Louis",
   },
 ];
-const sunday: any[] = [];
+const sunday: any[] = [
+  {
+    class: "Basketball",
+    timeStart: "4:00pm",
+    timeEnd: "5:00pm",
+    trainer: "Deez Johnson",
+  },
+  {
+    class: "Yoga",
+    timeStart: "9:00am",
+    timeEnd: "10:00am",
+    trainer: "Dana Louis",
+  },
+];
 
 export { monday, tuesday, wednesday, thursday, friday, saturday, sunday };

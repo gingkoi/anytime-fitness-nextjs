@@ -171,6 +171,17 @@ const Classes = () => {
               />
             ))
           : null}
+        {toggle === 7 && sunday.length > 0
+          ? sunday.map((item, index) => (
+              <ClassesCard
+                key={index}
+                classLesson={item.class}
+                startTime={item.timeStart}
+                endTime={item.timeEnd}
+                trainer={item.trainer}
+              />
+            ))
+          : null}
       </div>
     </div>
   );
