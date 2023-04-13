@@ -1,8 +1,24 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
+  const pictures = [
+    {
+      src: "https://images.pexels.com/photos/7031705/pexels-photo-7031705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      alt: "Gym Lobby",
+    },
+    {
+      src: "https://images.pexels.com/photos/4761352/pexels-photo-4761352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      alt: "Fitness exercise",
+    },
+    {
+      src: "https://images.pexels.com/photos/4720796/pexels-photo-4720796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      alt: "Fitness exercise",
+    },
+  ];
+
   return (
     <div className=" lg:h-[670px] h-[550px] max-w-screen relative overflow-hidden">
       <div className="w-full lg:h-[700px] h-[550px] relative">
@@ -31,7 +47,7 @@ const Hero = () => {
                 placeholder="Search by Suburb, Town or City"
                 className="grow focus:outline-none"
               />
-              <a href="">
+              <a href="/">
                 <AiOutlineSearch size={20} />
               </a>
             </div>
@@ -42,12 +58,10 @@ const Hero = () => {
           </div>
         </div>
         <Image
-          src={
-            "https://images.pexels.com/photos/7031705/pexels-photo-7031705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          }
-          alt="/"
+          src={pictures[1].src}
+          alt={pictures[1].alt}
           fill
-          className="md:h-[800px]"
+          className="md:h-[800px] bg-center"
           priority
         />
       </div>

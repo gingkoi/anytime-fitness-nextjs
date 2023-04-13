@@ -121,7 +121,7 @@ const Footer = () => {
         </div>
         <div className="bg-white h-[0.1rem] mt-14 mb-8" />
         <div className="flex flex-col lg:flex-row justify-between items-center space-y-5 lg:space-y-0">
-          <p>Copyright © 2022. All rights reserved.</p>
+          <p>Copyright © 2023. All rights reserved.</p>
           <div className="flex space-x-5">
             <Link href="/">
               <AiFillFacebook size={30} className="cursor-pointer" />

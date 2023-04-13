@@ -77,5 +77,8 @@
 }
 
 .animation_body {
-  animation: inTransition 0.45s;
+  animation: inTransition 0.35s;
+}
+.animation_nav {
+  animation: inTransition 0.25s;
 }

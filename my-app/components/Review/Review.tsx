@@ -36,7 +36,7 @@ const Review = () => {
             <h4 className="text-left text-4xl font-bold">OUR PHILOSOPHY</h4>
             <div className="flex flex-col lg:flex-row items-center justify-between space-y-5 lg:space-x-10">
               <Image
-                src="https://images.pexels.com/photos/5384538/pexels-photo-5384538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/5750855/pexels-photo-5750855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 width={500}
                 height={300}
                 alt="/"

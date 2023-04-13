@@ -66,7 +66,7 @@ const Navbar = () => {
       <div
         className={`${
           nav
-            ? "flex w-screen h-screen flex-col justify-center  font-poppin lg:hidden bg-black border-b-8 border-primary fixed top-0 left-0 right-0 bottom-0 z-[60]"
+            ? "flex w-screen h-screen flex-col justify-center  font-poppin lg:hidden bg-black border-b-8 border-primary fixed top-0 left-0 right-0 bottom-0 z-[60] animation_nav"
             : "hidden "
         }`}
       >
@@ -111,7 +111,9 @@ const Navbar = () => {
           >
             Join Online
           </Link>
-          <GuestMdoal />
+          <div onClick={closeNav}>
+            <GuestMdoal />
+          </div>
         </div>
       </div>
     </div>

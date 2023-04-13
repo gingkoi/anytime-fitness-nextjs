@@ -71,7 +71,7 @@ const GuestMdoal = () => {
       <button
         type="button"
         onClick={openModal}
-        className="text-text bg-[#f3f4f6] py-3 px-5 font-semibold lg:rounded-lg hover:bg-primary hover:text-white transition"
+        className="text-text bg-[#f3f4f6] lg:py-3 py-2 px-5 font-semibold rounded-lg hover:bg-primary hover:text-white transition text-2xl lg:text-base"
       >
         Guest Pass
       </button>
